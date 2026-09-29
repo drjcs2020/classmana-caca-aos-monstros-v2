@@ -1,0 +1,491 @@
+{
+  "titulo": "ClassMana — Banco de Questões | Desafio de Recomposição",
+  "versao": "1.0",
+  "publico": "4º ano do Ensino Fundamental — preparação e recomposição de habilidades para avaliações externas",
+  "observacao": "Banco independente de 24 questões. As questões teóricas e de avaliação manual foram convertidas em múltipla escolha para permitir correção objetiva durante o jogo.",
+  "total_questoes": 24,
+  "distribuicao_por_area": {
+    "Matemática": 6,
+    "Língua Portuguesa": 8,
+    "Informática": 2,
+    "Robótica e pensamento computacional": 2,
+    "História": 1,
+    "Geografia": 1,
+    "Ciências": 1,
+    "Arte": 1,
+    "Educação Física": 1,
+    "Esportes integrados à Matemática": 1
+  },
+  "distribuicao_por_interacao": {
+    "resposta digitada (número, fração, texto curto ou valor monetário)": 13,
+    "múltipla escolha": 4,
+    "ordenação de itens": 5,
+    "associação de pares": 2
+  },
+  "questoes": [
+    {
+      "id": "MAT-01",
+      "area": "Matemática",
+      "subtema": "Multiplicação e resolução de problema",
+      "dificuldade": "intermediária",
+      "habilidade": "Resolver problema multiplicativo em contexto de organização de equipes.",
+      "tipo_resposta": "digitar_numero",
+      "enunciado": "Quatro equipes receberam 6 cartões de pista cada uma. Quantos cartões foram distribuídos ao todo? Digite apenas o número.",
+      "resposta_correta": "24",
+      "respostas_aceitas": [
+        "24"
+      ],
+      "origem": "Questão elaborada anteriormente nesta conversa; contextualização mantida e resposta objetiva.",
+      "referencia_caderno": "Alinhamento temático com operações e resolução de problemas do Caderno de Matemática, Vol. 02."
+    },
+    {
+      "id": "MAT-02",
+      "area": "Matemática",
+      "subtema": "Divisão e resto",
+      "dificuldade": "intermediária",
+      "habilidade": "Resolver divisão equitativa e interpretar o resto.",
+      "tipo_resposta": "digitar_texto_curto",
+      "enunciado": "Há 53 pistas para dividir igualmente entre 6 equipes. Quantas pistas cada equipe recebe e quantas sobram? Responda no formato: [quantidade] para cada equipe; sobram [resto].",
+      "resposta_correta": "8 para cada equipe; sobram 5",
+      "respostas_aceitas": [
+        "8 para cada equipe; sobram 5",
+        "8 e resto 5",
+        "8; resto 5"
+      ],
+      "origem": "Questão elaborada anteriormente nesta conversa; contextualização mantida e resposta ampliada para explicitar o resto.",
+      "referencia_caderno": "Alinhamento temático com divisão e resolução de problemas do Caderno de Matemática, Vol. 02."
+    },
+    {
+      "id": "MAT-03",
+      "area": "Matemática",
+      "subtema": "Frações",
+      "dificuldade": "intermediária",
+      "habilidade": "Representar parte de um todo por meio de uma fração.",
+      "tipo_resposta": "digitar_fracao",
+      "enunciado": "Uma equipe completou 3 de 8 etapas do percurso. Que fração representa a parte do percurso que ela completou? Digite a fração.",
+      "resposta_correta": "3/8",
+      "respostas_aceitas": [
+        "3/8"
+      ],
+      "origem": "Questão elaborada anteriormente nesta conversa; revisada para resposta direta.",
+      "referencia_caderno": "Caderno de Matemática, Vol. 02, Tema III — números e operações; item adaptado para frações."
+    },
+    {
+      "id": "MAT-04",
+      "area": "Matemática",
+      "subtema": "Perímetro",
+      "dificuldade": "intermediária",
+      "habilidade": "Calcular o perímetro de uma região retangular.",
+      "tipo_resposta": "digitar_numero_com_unidade",
+      "enunciado": "Uma área retangular de treino mede 8 metros de comprimento e 5 metros de largura. Quantos metros de fita são necessários para contornar toda a área? Digite o número.",
+      "resposta_correta": "26",
+      "respostas_aceitas": [
+        "26",
+        "26 m",
+        "26 metros"
+      ],
+      "origem": "Questão elaborada anteriormente nesta conversa; contextualização mantida.",
+      "referencia_caderno": "Caderno de Matemática, Vol. 02, Tema I, D5 — perímetro e medidas dos lados; questão 15, p. 8 impressa (PDF p. 10), usada como referência de habilidade."
+    },
+    {
+      "id": "MAT-05",
+      "area": "Matemática",
+      "subtema": "Sistema monetário e subtração com decimais",
+      "dificuldade": "intermediária",
+      "habilidade": "Resolver situação de compra e troco com valores em reais.",
+      "tipo_resposta": "digitar_valor_monetario",
+      "enunciado": "Um caderno custa R$ 12,75, um lápis custa R$ 6,80 e uma borracha custa R$ 3,45. A equipe pagou com uma nota de R$ 50,00. Quanto recebeu de troco? Digite o valor em reais.",
+      "resposta_correta": "27,00",
+      "respostas_aceitas": [
+        "27",
+        "27,00",
+        "R$ 27,00",
+        "27.00"
+      ],
+      "origem": "Questão nova, baseada nos conteúdos trabalhados no caderno e no contexto da gincana.",
+      "referencia_caderno": "Caderno de Matemática, Vol. 02, Tema III, D23 — sistema monetário; questões 81–82, p. 27 impressa (PDF p. 29), referência de habilidade."
+    },
+    {
+      "id": "MAT-07",
+      "area": "Matemática",
+      "subtema": "Comparação e ordenação de números decimais",
+      "dificuldade": "intermediária",
+      "habilidade": "Comparar números decimais e organizá-los em ordem crescente.",
+      "tipo_resposta": "ordenar_itens",
+      "enunciado": "Organize as pontuações da menor para a maior.",
+      "itens": [
+        "0,7",
+        "0,35",
+        "0,5"
+      ],
+      "ordem_correta": [
+        "0,35",
+        "0,5",
+        "0,7"
+      ],
+      "origem": "Questão nova, elaborada para exercitar comparação numérica em formato de ordenação.",
+      "referencia_caderno": "Caderno de Matemática, Vol. 02, Tema III — números e operações; referência de conteúdo."
+    },
+    {
+      "id": "POR-01",
+      "area": "Língua Portuguesa",
+      "subtema": "Localização de informação explícita",
+      "dificuldade": "básica",
+      "habilidade": "Localizar informação explícita em texto curto.",
+      "tipo_resposta": "digitar_texto_curto",
+      "texto_base": "Na quarta-feira, a turma do 4º ano organizou uma busca por pistas. Antes de começar, cada equipe conferiu o mapa e escolheu um colega para ler as instruções em voz alta.",
+      "enunciado": "O que cada equipe fez antes de começar a busca? Responda com uma informação do texto.",
+      "resposta_correta": "Conferiu o mapa e escolheu um colega para ler as instruções",
+      "respostas_aceitas": [
+        "Conferiu o mapa e escolheu um colega para ler as instruções",
+        "Conferiu o mapa e escolheu quem leria as instruções",
+        "Conferiu o mapa e escolheu um colega para ler as instruções em voz alta"
+      ],
+      "origem": "Questão elaborada anteriormente nesta conversa, com texto curto refeito para a gincana.",
+      "referencia_caderno": "Caderno de Língua Portuguesa, Vol. 02, D1 — localizar informação explícita; referência de habilidade."
+    },
+    {
+      "id": "POR-02",
+      "area": "Língua Portuguesa",
+      "subtema": "Inferência",
+      "dificuldade": "intermediária",
+      "habilidade": "Inferir uma informação a partir de pistas do texto.",
+      "tipo_resposta": "digitar_texto_curto",
+      "texto_base": "Na quarta-feira, a turma do 4º ano organizou uma busca por pistas. Antes de começar, cada equipe conferiu o mapa e escolheu um colega para ler as instruções em voz alta.",
+      "enunciado": "Por que a equipe escolheu um colega para ler as instruções em voz alta? Responda com uma ideia coerente com o texto.",
+      "resposta_correta": "Para que todos conhecessem e compreendessem as instruções",
+      "respostas_aceitas": [
+        "Para que todos conhecessem as instruções",
+        "Para todos ouvirem e entenderem as instruções",
+        "Para a equipe entender as instruções"
+      ],
+      "origem": "Questão elaborada para ampliar a questão de localização com inferência simples.",
+      "referencia_caderno": "Caderno de Língua Portuguesa, Vol. 02, D4 — inferir informação; referência de habilidade."
+    },
+    {
+      "id": "POR-03",
+      "area": "Língua Portuguesa",
+      "subtema": "Ideia principal",
+      "dificuldade": "intermediária",
+      "habilidade": "Identificar o assunto principal de um texto informativo.",
+      "tipo_resposta": "digitar_texto_curto",
+      "texto_base": "A biblioteca da escola passou a emprestar livros para as turmas levarem para casa. Cada estudante pode escolher um título por semana. Depois da leitura, a turma conversa sobre as histórias e recomenda novos livros aos colegas.",
+      "enunciado": "Qual é a ideia principal desse texto? Responda em uma frase curta.",
+      "resposta_correta": "A biblioteca empresta livros para os estudantes lerem e compartilharem suas leituras",
+      "respostas_aceitas": [
+        "A biblioteca empresta livros para os estudantes",
+        "Os estudantes podem levar livros para casa e conversar sobre a leitura",
+        "O empréstimo de livros da biblioteca escolar"
+      ],
+      "origem": "Texto e questão originais, alinhados aos itens de identificação de assunto do caderno.",
+      "referencia_caderno": "Caderno de Língua Portuguesa, Vol. 02, D6 — identificar o tema/assunto; referência de habilidade."
+    },
+    {
+      "id": "POR-04",
+      "area": "Língua Portuguesa",
+      "subtema": "Referência pronominal",
+      "dificuldade": "intermediária",
+      "habilidade": "Identificar a que termo um pronome se refere no texto.",
+      "tipo_resposta": "digitar_texto_curto",
+      "texto_base": "Júlia guardou o mapa com cuidado. Depois, ela o entregou ao monitor.",
+      "enunciado": "No trecho “ela o entregou ao monitor”, a palavra “o” substitui qual palavra do texto?",
+      "resposta_correta": "mapa",
+      "respostas_aceitas": [
+        "mapa",
+        "o mapa"
+      ],
+      "origem": "Questão original, usando habilidade recorrente no caderno.",
+      "referencia_caderno": "Caderno de Língua Portuguesa, Vol. 02, D2 — reconhecer relações entre partes do texto; referência de habilidade."
+    },
+    {
+      "id": "POR-05",
+      "area": "Língua Portuguesa",
+      "subtema": "Conjunções e relação de causa",
+      "dificuldade": "intermediária",
+      "habilidade": "Identificar uma conjunção que expressa causa.",
+      "tipo_resposta": "multipla_escolha",
+      "enunciado": "Na frase “A equipe conferiu o trajeto ______ queria evitar voltar ao ponto anterior”, qual palavra indica a causa?",
+      "origem": "Questão original, em formato de completar lacuna.",
+      "referencia_caderno": "Caderno de Língua Portuguesa, Vol. 02, D12 — relações lógico-discursivas; referência de habilidade.",
+      "alternativas": [
+        "porque",
+        "mas",
+        "portanto",
+        "embora"
+      ],
+      "indice_correto": 0
+    },
+    {
+      "id": "POR-06",
+      "area": "Língua Portuguesa",
+      "subtema": "Pontuação e efeito de sentido",
+      "dificuldade": "básica",
+      "habilidade": "Reconhecer o efeito de sentido do ponto de exclamação.",
+      "tipo_resposta": "multipla_escolha",
+      "enunciado": "Na fala “Atenção, aventureiros!”, o ponto de exclamação indica que a pessoa está:",
+      "origem": "Questão original, transformada em completar lacuna.",
+      "referencia_caderno": "Caderno de Língua Portuguesa, Vol. 02, D14 — efeitos de pontuação; referência de habilidade.",
+      "alternativas": [
+        "fazendo um chamado com ênfase ou entusiasmo",
+        "fazendo uma pergunta",
+        "separando itens de uma lista",
+        "indicando uma dúvida"
+      ],
+      "indice_correto": 0
+    },
+    {
+      "id": "POR-07",
+      "area": "Língua Portuguesa",
+      "subtema": "Coesão e ordenação de instruções",
+      "dificuldade": "intermediária",
+      "habilidade": "Organizar instruções em uma sequência coerente.",
+      "tipo_resposta": "ordenar_itens",
+      "enunciado": "Organize as instruções na ordem mais adequada para seguir uma pista.",
+      "itens": [
+        "Siga o caminho indicado.",
+        "Leia a pista com atenção.",
+        "Localize o ponto no mapa.",
+        "Confira se chegou ao local correto."
+      ],
+      "ordem_correta": [
+        "Leia a pista com atenção.",
+        "Localize o ponto no mapa.",
+        "Siga o caminho indicado.",
+        "Confira se chegou ao local correto."
+      ],
+      "origem": "Questão original, em formato de ordenação.",
+      "referencia_caderno": "Caderno de Língua Portuguesa, Vol. 02, D1 e D5 — sequência de informações e coesão; referência de habilidade."
+    },
+    {
+      "id": "POR-08",
+      "area": "Língua Portuguesa",
+      "subtema": "Clareza nas instruções",
+      "dificuldade": "intermediária",
+      "habilidade": "Selecionar uma instrução clara, completa e adequada ao objetivo.",
+      "tipo_resposta": "multipla_escolha",
+      "enunciado": "A equipe precisa escrever uma instrução para chegar à biblioteca. Qual opção é mais clara e completa?",
+      "origem": "Questão elaborada anteriormente nesta conversa; produção curta com critérios explícitos.",
+      "referencia_caderno": "Caderno de Língua Portuguesa, Vol. 02; proposta de produção própria para o desafio. Requer avaliação manual do professor.",
+      "alternativas": [
+        "Vá até lá depois.",
+        "Siga pelo corredor até a biblioteca e confira a placa na entrada.",
+        "Biblioteca, corredor, placa.",
+        "Procure algum lugar com livros."
+      ],
+      "indice_correto": 1
+    },
+    {
+      "id": "INF-01",
+      "area": "Informática",
+      "subtema": "Dispositivos de entrada e saída",
+      "dificuldade": "básica",
+      "habilidade": "Relacionar periféricos às suas funções no computador.",
+      "tipo_resposta": "associar_pares",
+      "enunciado": "Associe cada dispositivo à sua função.",
+      "pares": [
+        {
+          "item": "Teclado",
+          "correspondencia": "Inserir letras e números"
+        },
+        {
+          "item": "Mouse",
+          "correspondencia": "Controlar o ponteiro"
+        },
+        {
+          "item": "Monitor",
+          "correspondencia": "Exibir textos e imagens"
+        },
+        {
+          "item": "Caixa de som",
+          "correspondencia": "Reproduzir áudio"
+        }
+      ],
+      "origem": "Questão original de informática, adequada às atividades digitais iniciais.",
+      "referencia_caderno": null
+    },
+    {
+      "id": "INF-02",
+      "area": "Informática",
+      "subtema": "Segurança e cuidado no uso de dispositivos",
+      "dificuldade": "intermediária",
+      "habilidade": "Distinguir atitudes seguras e inseguras no uso de recursos digitais.",
+      "tipo_resposta": "associar_pares",
+      "enunciado": "Classifique cada atitude como “segura” ou “precisa de cuidado”.",
+      "pares": [
+        {
+          "item": "Encerrar a conta depois de usar um computador compartilhado.",
+          "correspondencia": "Segura"
+        },
+        {
+          "item": "Contar a senha para qualquer colega.",
+          "correspondencia": "Precisa de cuidado"
+        },
+        {
+          "item": "Pedir orientação antes de baixar um arquivo desconhecido.",
+          "correspondencia": "Segura"
+        }
+      ],
+      "origem": "Questão original, contextualizada para o uso da sala de informática.",
+      "referencia_caderno": null
+    },
+    {
+      "id": "ROB-01",
+      "area": "Robótica e pensamento computacional",
+      "subtema": "Algoritmos e sequência de comandos",
+      "dificuldade": "intermediária",
+      "habilidade": "Organizar comandos para executar uma tarefa em uma ordem definida.",
+      "tipo_resposta": "ordenar_itens",
+      "enunciado": "O robô começa virado para o norte. Organize os comandos para ele avançar duas casas, virar à direita e avançar uma casa.",
+      "itens": [
+        "Avançar uma casa.",
+        "Virar à direita.",
+        "Avançar duas casas."
+      ],
+      "ordem_correta": [
+        "Avançar duas casas.",
+        "Virar à direita.",
+        "Avançar uma casa."
+      ],
+      "origem": "Questão original de pensamento computacional, sem exigir conhecimento prévio de programação textual.",
+      "referencia_caderno": null
+    },
+    {
+      "id": "ROB-02",
+      "area": "Robótica e pensamento computacional",
+      "subtema": "Padrões e repetição",
+      "dificuldade": "intermediária",
+      "habilidade": "Interpretar uma instrução repetida em um algoritmo.",
+      "tipo_resposta": "digitar_numero",
+      "enunciado": "Um robô avança 2 casas em cada repetição. Se o comando se repetir 4 vezes, quantas casas ele avança ao todo? Digite o número.",
+      "resposta_correta": "8",
+      "respostas_aceitas": [
+        "8"
+      ],
+      "origem": "Questão original de robótica inicial, relacionada a padrões e multiplicação.",
+      "referencia_caderno": null
+    },
+    {
+      "id": "HIS-01",
+      "area": "História",
+      "subtema": "Fontes e memória da comunidade",
+      "dificuldade": "intermediária",
+      "habilidade": "Reconhecer etapas de uma pesquisa sobre a história da comunidade.",
+      "tipo_resposta": "ordenar_itens",
+      "enunciado": "Organize as etapas para descobrir como era um espaço da escola no passado.",
+      "itens": [
+        "Comparar o relato com uma fotografia antiga.",
+        "Registrar o que descobriu.",
+        "Entrevistar uma pessoa que estudou na escola há muitos anos."
+      ],
+      "ordem_correta": [
+        "Entrevistar uma pessoa que estudou na escola há muitos anos.",
+        "Comparar o relato com uma fotografia antiga.",
+        "Registrar o que descobriu."
+      ],
+      "origem": "Questão original de História, articulada à memória da escola.",
+      "referencia_caderno": null
+    },
+    {
+      "id": "GEO-01",
+      "area": "Geografia",
+      "subtema": "Pontos cardeais e orientação",
+      "dificuldade": "básica",
+      "habilidade": "Usar referências espaciais para descrever um deslocamento.",
+      "tipo_resposta": "digitar_texto_curto",
+      "enunciado": "No mapa, a biblioteca fica a oeste da quadra. Você está na biblioteca e vai caminhar até a quadra. Em qual direção deve seguir?",
+      "resposta_correta": "leste",
+      "respostas_aceitas": [
+        "leste",
+        "para leste",
+        "leste (ou este)"
+      ],
+      "origem": "Questão nova, relacionada à leitura de mapas e orientação espacial.",
+      "referencia_caderno": "Caderno de Matemática, Vol. 02, Tema I, D1 — localização e movimentação em mapas; questão 2, p. 2 impressa (PDF p. 4), como referência interdisciplinar."
+    },
+    {
+      "id": "CIE-01",
+      "area": "Ciências",
+      "subtema": "Ciclo da água",
+      "dificuldade": "intermediária",
+      "habilidade": "Ordenar etapas simplificadas do ciclo da água.",
+      "tipo_resposta": "ordenar_itens",
+      "enunciado": "Organize as etapas do ciclo da água começando pelo aquecimento da água pelo Sol.",
+      "itens": [
+        "O vapor esfria e forma gotículas nas nuvens.",
+        "A água de rios, lagos e mares evapora.",
+        "A água retorna ao solo em forma de chuva."
+      ],
+      "ordem_correta": [
+        "A água de rios, lagos e mares evapora.",
+        "O vapor esfria e forma gotículas nas nuvens.",
+        "A água retorna ao solo em forma de chuva."
+      ],
+      "origem": "Questão original de Ciências, adequada ao 4º ano.",
+      "referencia_caderno": null
+    },
+    {
+      "id": "ART-01",
+      "area": "Arte",
+      "subtema": "Cores e intenção expressiva",
+      "dificuldade": "básica",
+      "habilidade": "Selecionar cores para comunicar uma intenção visual.",
+      "tipo_resposta": "digitar_texto_curto",
+      "enunciado": "Para criar uma imagem que lembre fogo e calor, escreva duas cores que podem ajudar a transmitir essa sensação.",
+      "resposta_correta": "vermelho e laranja",
+      "respostas_aceitas": [
+        "vermelho e laranja",
+        "laranja e vermelho",
+        "amarelo e vermelho",
+        "vermelho e amarelo",
+        "laranja e amarelo",
+        "amarelo e laranja"
+      ],
+      "origem": "Questão original de Arte, sobre escolha de cores e intenção.",
+      "referencia_caderno": null
+    },
+    {
+      "id": "EDF-01",
+      "area": "Educação Física",
+      "subtema": "Cooperação e respeito no esporte",
+      "dificuldade": "intermediária",
+      "habilidade": "Reconhecer uma atitude de respeito e cooperação durante o jogo.",
+      "tipo_resposta": "multipla_escolha",
+      "enunciado": "Durante uma partida, um colega erra um passe e a equipe perde a bola. Qual atitude ajuda o grupo a continuar jogando junto?",
+      "origem": "Questão original, com avaliação formativa de cooperação e respeito.",
+      "referencia_caderno": null,
+      "alternativas": [
+        "Culpar o colega pelo erro.",
+        "Incentivar o colega e combinar como a equipe pode tentar novamente.",
+        "Parar de passar a bola para ele.",
+        "Abandonar a partida."
+      ],
+      "indice_correto": 1
+    },
+    {
+      "id": "ESP-01",
+      "area": "Esportes integrados à Matemática",
+      "subtema": "Voleibol, adição e comparação de quantidades",
+      "dificuldade": "intermediária",
+      "habilidade": "Somar pontuações em contexto esportivo e comparar resultados.",
+      "tipo_resposta": "digitar_numero",
+      "enunciado": "Em dois sets de voleibol, uma equipe marcou 25 pontos no primeiro e 25 no segundo. A equipe adversária marcou 18 e 22 pontos. Quantos pontos a equipe vencedora marcou a mais no total? Digite o número.",
+      "resposta_correta": "10",
+      "respostas_aceitas": [
+        "10",
+        "10 pontos"
+      ],
+      "origem": "Questão original, interdisciplinar, com contexto esportivo.",
+      "referencia_caderno": null
+    }
+  ],
+  "fontes": [
+    {
+      "arquivo": "Caderno de Matemática (Aluno) Vol. 02 — 5º ano (SAEB)",
+      "uso": "Referência de habilidades matemáticas; questões reescritas ou contextualizadas. Não foi copiado o caderno inteiro."
+    },
+    {
+      "arquivo": "Caderno de Língua Portuguesa (Aluno) Vol. 02 — 5º ano (SAEB)",
+      "uso": "Referência de descritores de leitura, inferência, tema, coesão, relações entre partes do texto e pontuação. Textos do banco foram elaborados para o ClassMana."
+    }
+  ]
+}
